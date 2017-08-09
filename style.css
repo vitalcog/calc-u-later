@@ -1,0 +1,55 @@
+body {
+  background-color: skyblue;
+}
+
+#calcBox {
+  margin-top: 1%;
+  margin-left: .5%;
+  border: solid 3px purple;
+  background-color: purple;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 418px;
+  width: 330px;
+}
+
+button {
+  font-size: 2em;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  height: 80px;
+  width: 80px;
+}
+
+#matchnum1 {
+  background-color: green;
+}
+
+#matchnum2 {
+  background-color: green;
+}
+
+#matchnum3 {
+  background-color: green;
+}
+
+.function {
+  background-color: limegreen;
+}
+
+#display {
+  white-space: nowrap;
+  font-size: 3.8em;
+  color: black;
+  text-align: right;
+  background-color: darkgray;
+  border-radius: 5px;
+  border: solid 2px darkgray;
+  border-style: ridge;
+  height: 80px;
+  width: 240px;
+}
